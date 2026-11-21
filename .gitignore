@@ -8,3 +8,6 @@ native/*/target/
 .claude/
 DerivedData/
 .DS_Store
+# LlamaKit stays local-only (not published).
+Sources/LlamaKit/
+Tests/LlamaKitTests/

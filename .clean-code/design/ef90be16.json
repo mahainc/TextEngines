@@ -1,0 +1,103 @@
+{
+  "path": "Sources/LlamaKit/LlamaEngine.swift",
+  "history": [
+    {
+      "markers": 0,
+      "decls_digest": "13ba3a8194ee149d2edac9a10d17107b20c58f8b14b25b7033e144ce2e4e1926"
+    },
+    {
+      "markers": 0,
+      "decls_digest": "13ba3a8194ee149d2edac9a10d17107b20c58f8b14b25b7033e144ce2e4e1926",
+      "late": true
+    }
+  ],
+  "decls": [
+    {
+      "kind": "enum",
+      "name": "LlamaError",
+      "signature": "()"
+    },
+    {
+      "kind": "struct",
+      "name": "LlamaRunStats",
+      "signature": "()"
+    },
+    {
+      "kind": "function",
+      "name": "tokensPerSecond",
+      "signature": "()"
+    },
+    {
+      "kind": "class",
+      "name": "NativeHandles",
+      "signature": "()"
+    },
+    {
+      "kind": "function",
+      "name": "init",
+      "signature": "(model: OpaquePointer, context: OpaquePointer)"
+    },
+    {
+      "kind": "function",
+      "name": "deinit",
+      "signature": "()"
+    },
+    {
+      "kind": "class",
+      "name": "LlamaEngine",
+      "signature": "()"
+    },
+    {
+      "kind": "function",
+      "name": "backendReady",
+      "signature": "()"
+    },
+    {
+      "kind": "function",
+      "name": "init",
+      "signature": "(modelURL: URL, contextLength: Int32 = 1024, gpuLayers: Int32 = 99, threads: Int32 = 2)"
+    },
+    {
+      "kind": "function",
+      "name": "complete",
+      "signature": "(system: String, user: String, grammar: String, maxTokens: Int32)"
+    },
+    {
+      "kind": "function",
+      "name": "chatPrompt",
+      "signature": "(system: String, user: String)"
+    },
+    {
+      "kind": "function",
+      "name": "tokenize",
+      "signature": "(_ text: String)"
+    },
+    {
+      "kind": "function",
+      "name": "makeSampler",
+      "signature": "(grammar: String)"
+    },
+    {
+      "kind": "function",
+      "name": "warmUp",
+      "signature": "(context: OpaquePointer, vocab: OpaquePointer)"
+    },
+    {
+      "kind": "function",
+      "name": "decode",
+      "signature": "(_ tokens: [llama_token], startingAt start: Int32, in batch: OpaquePointer, context: OpaquePointer)"
+    },
+    {
+      "kind": "function",
+      "name": "piece",
+      "signature": "(of token: llama_token)"
+    },
+    {
+      "kind": "function",
+      "name": "physicalFootprint",
+      "signature": "()"
+    }
+  ],
+  "decls_digest": "13ba3a8194ee149d2edac9a10d17107b20c58f8b14b25b7033e144ce2e4e1926",
+  "markers": 0
+}

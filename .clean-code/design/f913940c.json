@@ -1,0 +1,28 @@
+{
+  "path": "Package.swift",
+  "history": [
+    {
+      "markers": 0,
+      "decls_digest": "f6ce9eacb6ed1e9ae0a5b0de0b9e7986da5f45bd9ac91aa5ff38c80f54585d3d"
+    },
+    {
+      "markers": 0,
+      "decls_digest": "f6ce9eacb6ed1e9ae0a5b0de0b9e7986da5f45bd9ac91aa5ff38c80f54585d3d",
+      "late": true
+    }
+  ],
+  "decls": [
+    {
+      "kind": "struct",
+      "name": "Engine",
+      "signature": "()"
+    },
+    {
+      "kind": "function",
+      "name": "binaryTarget",
+      "signature": "(of engine: Engine)"
+    }
+  ],
+  "decls_digest": "f6ce9eacb6ed1e9ae0a5b0de0b9e7986da5f45bd9ac91aa5ff38c80f54585d3d",
+  "markers": 0
+}

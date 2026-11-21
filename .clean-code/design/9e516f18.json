@@ -1,0 +1,88 @@
+{
+  "path": "Sources/BergamotKit/BergamotEngine.swift",
+  "history": [
+    {
+      "markers": 0,
+      "decls_digest": "f3e158f5eb47b73dd92c1aa8eab593b48570af231e20f114f1892bb6a8678a05"
+    },
+    {
+      "markers": 0,
+      "decls_digest": "f3e158f5eb47b73dd92c1aa8eab593b48570af231e20f114f1892bb6a8678a05",
+      "late": true
+    },
+    {
+      "markers": 0,
+      "decls_digest": "eb0657b3d825f964f01bea93a6ee4c18992a871e2900a40b307c306140956041",
+      "late": true
+    },
+    {
+      "markers": 0,
+      "decls_digest": "eb0657b3d825f964f01bea93a6ee4c18992a871e2900a40b307c306140956041",
+      "late": true
+    }
+  ],
+  "decls": [
+    {
+      "kind": "enum",
+      "name": "BergamotError",
+      "signature": "()"
+    },
+    {
+      "kind": "class",
+      "name": "BergamotEngine",
+      "signature": "()"
+    },
+    {
+      "kind": "function",
+      "name": "init",
+      "signature": "(modelDirectory: URL, threads: Int = 2)"
+    },
+    {
+      "kind": "function",
+      "name": "translate",
+      "signature": "(_ text: String)"
+    },
+    {
+      "kind": "function",
+      "name": "call",
+      "signature": "(failingWith failure: (String) -> BergamotError, _ body: (inout UnsafeMutablePointer<CChar>?) -> Result?)"
+    },
+    {
+      "kind": "function",
+      "name": "consume",
+      "signature": "(_ string: UnsafeMutablePointer<CChar>?)"
+    },
+    {
+      "kind": "class",
+      "name": "EngineHandle",
+      "signature": "()"
+    },
+    {
+      "kind": "function",
+      "name": "init",
+      "signature": "(_ pointer: OpaquePointer)"
+    },
+    {
+      "kind": "function",
+      "name": "deinit",
+      "signature": "()"
+    },
+    {
+      "kind": "struct",
+      "name": "ModelFiles",
+      "signature": "()"
+    },
+    {
+      "kind": "function",
+      "name": "init",
+      "signature": "(directory: URL)"
+    },
+    {
+      "kind": "function",
+      "name": "file",
+      "signature": "(_ prefix: String)"
+    }
+  ],
+  "decls_digest": "eb0657b3d825f964f01bea93a6ee4c18992a871e2900a40b307c306140956041",
+  "markers": 0
+}

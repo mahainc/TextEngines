@@ -1,0 +1,23 @@
+{
+  "path": "Sources/LlamaKit/PassTwoGrammar.swift",
+  "history": [
+    {
+      "markers": 0,
+      "decls_digest": "051a3c1b7d4f8a7c0866ea2ff4d3f6d28bc051fdf030bce26351f69792746b13"
+    },
+    {
+      "markers": 0,
+      "decls_digest": "051a3c1b7d4f8a7c0866ea2ff4d3f6d28bc051fdf030bce26351f69792746b13",
+      "late": true
+    }
+  ],
+  "decls": [
+    {
+      "kind": "enum",
+      "name": "PassTwoGrammar",
+      "signature": "()"
+    }
+  ],
+  "decls_digest": "051a3c1b7d4f8a7c0866ea2ff4d3f6d28bc051fdf030bce26351f69792746b13",
+  "markers": 0
+}
