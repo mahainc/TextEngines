@@ -1,0 +1,4 @@
+language = "C"
+include_guard = "HARPER_FFI_H"
+no_includes = true
+sys_includes = ["stdint.h"]

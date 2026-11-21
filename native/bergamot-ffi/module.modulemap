@@ -1,0 +1,6 @@
+module BergamotFFI {
+    header "bergamot_ffi.h"
+    link "c++"
+    link "iconv"
+    export *
+}

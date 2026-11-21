@@ -1,0 +1,10 @@
+Artifacts/
+Models/
+build/
+.build/
+.swiftpm/
+native/*/target/
+*.xcframework
+.claude/
+DerivedData/
+.DS_Store
